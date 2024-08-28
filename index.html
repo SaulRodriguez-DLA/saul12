@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .menu-item {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .menu-item img {
+            width: 150px;
+            margin-right: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Menú del Restaurante</h1>
+</header>
+
+<section id="hamburguesas">
+    <h2>Hamburguesas</h2>
+    <div class="menu-item">
+        <img src="img 22/HamburguesaClasica.jpg" alt="Hamburguesa Clásica">
+        <div>
+            <h3>Hamburguesa Clásica</h3>
+            <p>Descripción de la hamburguesa clásica.</p>
+            <p>Precio: $45</p>
+            <input type="checkbox" name="hamburguesa" value="45"> Seleccionar
+        </div>
+    </div>
+    
+</section>
+<div class="menu-item">
+    <img src="img 22/HamburguesaPollo.jpg" alt="Hamburguesa de pollo">
+    <div>
+        <h3>Hamburguesa de pollo</h3>
+        <p>Contiene dos pedasos de pollo</p>
+        <p>Precio: $70</p>
+        <input type="checkbox" name="hamburguesa" value="70"> Seleccionar
+    </div>
+</div>
+
+</section>
+<div class="menu-item">
+    <img src="img 22/HamburguesaDobleCarne.jpg" alt="Hamburguesa con doble carne">
+    <div>
+        <h3>Hamburguesa con doble carne</h3>
+        <p>Tiene lechuga,quso amarillo,tomate,cebolla,dos pedasos de carne</p>
+        <p>Precio: $100</p>
+        <input type="checkbox" name="hamburguesa" value="100"> Seleccionar
+    </div>
+</div>
+
+</section>
+<div class="menu-item">
+    <img src="img 22/HamburguesaBBQ.jpg" alt="Hamburguesa BBQ ">
+    <div>
+        <h3>Hamburguesa BBQ</h3>
+        <p>Contiene carne de res a la parrilla y se agrega la salsa BBQ dulce y ahumada encima</p>
+        <p>Precio: $120</p>
+        <input type="checkbox" name="hamburguesa" value="120"> Seleccionar
+    </div>
+</div>
+</section>
+<div class="menu-item">
+    <img src="img 22/HamburguesaSushi.jpg" alt="Hamburguesa de Sushi ">
+    <div>
+        <h3>Hamburguesa de sushi </h3>
+        <p>El arroz se moldea en forma de hamburguesa y se encvuele en un alga nori,El relleno suele ser de pescado crudo o salmon junto con vegetales frescos</p>
+        <p>Precio: $150</p>
+        <input type="checkbox" name="hamburguesa" value="150"> Seleccionar
+    </div>
+</div>
+
+<section id="tacos">
+    <h2>Tacos</h2>
+    <div class="menu-item">
+        <img src="img 22/TacosBisteck.jpg" alt="Taco de bistek">
+        <div>
+            <h3>Taco de bistek</h3>
+            <p>Horden de tacos de bistek con cebolla,cilantro y doble tortilla</p>
+            <p>Precio: $80</p>
+            <input type="checkbox" name="taco" value="80"> Seleccionar
+        </div>
+    </div>
+</section>
+<div class="menu-item">
+    <img src="img 22/TacosCarneAsada.jpg" alt="Taco de carne asada">
+    <div>
+        <h3>Tacos de carne asada</h3>
+        <p>Totillas de maiz con cilantro,cebolla</p>
+        <p>Precio: $120</p>
+        <input type="checkbox" name="taco" value="120"> Seleccionar
+    </div>
+</div>
+</section>
+<div class="menu-item">
+    <img src="img 22/TacosPastor.jpg" alt="Taco al pastor">
+    <div>
+        <h3>Taco al pastor</h3>
+        <p>Contiene tortillas de maiz con cebolla,cilantro,pina </p>
+        <p>Precio: $100</p>
+        <input type="checkbox" name="taco" value="100"> Seleccionar
+    </div>
+</div>
+</section>
+<div class="menu-item">
+    <img src="img 22/TacosCarnitas.jpg" alt="Taco de carnitas">
+    <div>
+        <h3>Taco de carnitas</h3>
+        <p>tortilla de maiz,cilantro,cebolla y guacamole</p>
+        <p>Precio: $150</p>
+        <input type="checkbox" name="taco" value="150"> Seleccionar
+    </div>
+</div>
+</section>
+<div class="menu-item">
+    <img src="img 22/TacosPibil.jpg" alt="Taco de Cochinita pibil">
+    <div>
+        <h3>Taco de Cochinita pibil</h3>
+        <p>Dos tortillas de maiz pequeñas,cebolla morada picada y chile habanero</p>
+        <p>Precio: $135</p>
+        <input type="checkbox" name="taco" value="135"> Seleccionar
+    </div>
+</div>
+
+    <h2>Postres</h2>
+    <div class="menu-item">
+        <img src="img 22/chocolate.jpg" alt="Pastel de Chocolate">
+        <div>
+            <h3>Pastel de Chocolate</h3>
+            <p>Rebanada de pastel</p>
+            <p>Precio: $30</p>
+            <input type="checkbox" name="postre" value="30"> Seleccionar
+        </div>
+    </div>
+</section>
+
+    <div class="menu-item">
+        <img src="img 22/25.jpg" alt="Flan con Galleta y Chocolate">
+        <div>
+            <h3>Flan con Galleta y Chocolate</h3>
+            <p>Flan</p>
+            <p>Precio: $40</p>
+            <input type="checkbox" name="postre" value="40"> Seleccionar
+        </div>
+    </div>
+</section>
+<div class="menu-item">
+    <img src="img 22/27.jpg" alt="Yogurt de Fresas">
+    <div>
+        <h3>Yogurt de Fresas</h3>
+        <p></p>
+        <p>Precio: $35</p>
+        <input type="checkbox" name="postre" value="35"> Seleccionar
+    </div>
+</div>
+</section>
+<div class="menu-item">
+    <img src="img 22/28.jpg" alt="Helado de Menta con Chispas de Nuez y de  Chocolate">
+    <div>
+        <h3>Helado de Menta con Chispas de Nuez y de  Chocolate</h3>
+        <p></p>
+        <p>Precio: $55</p>
+        <input type="checkbox" name="postre" value="55"> Seleccionar
+    </div>
+</div>
+</section>
+<div class="menu-item">
+    <img src="img 22/29.jpg" alt="Fresas con Crema">
+    <div>
+        <h3>Fresas con Crema</h3>
+        <p></p>
+        <p>Precio: $60</p>
+        <input type="checkbox" name="postre" value="60"> Seleccionar
+    </div>
+</div>
+
+<section id="refrescos">
+    <h2>Refrescos</h2>
+    <div class="menu-item">
+        <img src="img 22/Cocacola.jpg" alt="Refresco de Cola">
+        <div>
+            <h3>Refresco de Cola</h3>
+            <p>Refresco coca cola con hielo</p>
+            <p>Precio: $25</p>
+            <input type="checkbox" name="refresco" value="25"> Seleccionar
+        </div>
+    </div>
+    
+</section>
+    <div class="menu-item">
+        <img src="img 22/Jarritos.jpg" alt="Refresco Jarritos">
+        <div>
+            <h3>Refresco Jarritos</h3>
+            <p>Jarritos de naranja y limon</p>
+            <p>Precio: $25</p>
+            <input type="checkbox" name="refresco" value="25"> Seleccionar
+        </div>
+    </div>
+</section>
+<div class="menu-item">
+    <img src="img 22/Pepsi.jpg" alt="Refresco pepsi ">
+    <div>
+        <h3>refresco pepsi</h3>
+        <p>Pepsi con hielo</p>
+        <p>Precio: $25</p>
+        <input type="checkbox" name="refresco" value="25"> Seleccionar
+    </div>
+</div>
+</section>
+<div class="menu-item">
+<img src="img 22/SevenUp.jpg" alt="Refresco SevenUp">
+    <div>
+        <h3>Refresco SevenUp</h3>
+        <p>SevenUp con hielo</p>
+        <p>Precio: $25</p>
+        <input type="checkbox" name="refresco" value="25"> Seleccionar
+    </div>
+</div>
+</section>
+<div class="menu-item">
+<img src="img 22/Fanta.jpg" alt="Refresco fanta">
+    <div>
+        <h3>Refresco fanta</h3>
+        <p>Fanta bien Fria</p>
+        <p>Precio: $25</p>
+        <input type="checkbox" name="refresco" value="25"> Seleccionar
+    </div>
+</div>
+<footer>
+    <h3>Total a Pagar: <span id="total">0</span></h3>
+    <button onclick="calcularTotal()">Calcular Total</button>
+</footer>
+
+<script>
+    function calcularTotal() {
+        var total = 0;
+        var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+        checkboxes.forEach(function(checkbox) {
+            total += parseFloat(checkbox.value);
+        });
+        document.getElementById('total').innerText = total.toFixed(2);
+    }
+</script>
+
+</body>
+</html>
+
+
+
+review_order                     <DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    
+            <link href="https://fonts.cdnfonts.com/css/tex-gyre-pagella" rel="stylesheet">
+    
+        <title>Pagina principal</title>
+    </head>
+    <body>
+        <div style="margin: 24px;">
+            <nav class="nav navbar-ligth" style="background-color: rgb(42, 25, 75);">
+              <div class="container">
+                <a class="navbar-brand" href="index.html" style="font-family: Arial, Helvetica, sans-serif;color: blue;">Inicio</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="nav navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" 
+                    id="navbarDropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false" style="font-family: 'TeXGyrePagella', sans-serif;">Unidad 1</a></a>
+                    <div class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-ites" href="perfil.html">Perfil</a><br>
+                    <a class="dropdown-ites" href="Calculadora.html">Calculadora</a><br>
+                    <a class="dropdown-ites" href="Menu.html">Tienda</a>
+    
+      
+                    </div>
+                  </li>
+                  <li>
+                    <a class="nav-link dropdown-toggle" href="#" 
+                    id="navbarDropdownMenuLink2" 
+                    data-toggle="dropdown" aria-haspopup="true" 
+                    aria-expanded="false" style= "font-family: 'TeXGyrePagella', sans-serif;">Unidad 2</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                      <a class="dropdown-ites" href="primavera.html">primavera</a><br>
+                      <a class="dropdown-ites" href="Tiendapedido1.html">Tienda pedido</a><br>
+                    </div>
+                </li>
+                    <li>
+      
+                      <a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink3" 
+                      data-toggle="dropdown" aria-haspopup="true" 
+                      aria-expanded="false" style="font-family: 'TeXGyrePagella', sans-serif;" >Unidad 3</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                        <a class="dropdown-ites" href="basededatos.html">Base de Datos</a><br>
+                        <a class="dropdown-ites" href="peliculas.html">Peliculas</a><br>
+                        <a class="dropdown-ites" href="pokemon.html">Pokemon</a>
+                       </div>
+                     </li>
+                 </ul>
+               </nav>
+            <body>
+            <style>
+                #confirmacion{
+                    color: blue;
+                    max-width: 600px;
+                    margin: auto;
+                    padding: 20px;
+                    background-color: rgb(150, 37, 150);
+                    box-shadow: 0 4px 8px tomato;
+                    border-radius: 5px;
+                }
+                #confirmacion label{
+                    display: block;
+                    margin-top: 10px;
+                    font-weight: bold;
+                    
+                }
+                #confirmacion input, #confirmacion select{
+                    width: calc(100%, -20px);
+                    padding: 10px;
+                    margin-top: 5px;
+                }
+                #confirmacion button{
+                    width: auto;
+                    padding: 10px 30px;
+                    font-size: 18px;
+                    display: block;
+                    margin: 20px auto;
+                    background-color: aqua;
+                }
+                #confirmacion div{
+                    margin-top: 15px;
+                    padding: 8px;
+                    background: white;
+                    border-radius: 5px;
+                }
+                #confirmacion hr{
+                    border-top: 2px solid magenta;
+                }
+                #confirmacion div{
+                    font-size: 12px;
+                    color: blueviolet;
+                }
+            </style>
+    <body>
+        <div style="margin: 24px;"></div>
+        <h1>Confirmar pedido</h1>
+        <form id="confirmacion">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido"required>
+            <label for="nombre">Direccion:</label>
+            <input type="text" name="Direccion" id="Direccion" placeholder="Calle/Numero/Colonia"required>
+            <label for="nombre">Telefono:</label>
+            <input type="text" name="Telefono" id="Telefono" placeholder="899-999-9999"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+            <label for="nombre">E-mail</label>
+            <input type="text" name="email" id="email" placeholder="tuusuario@servidor.com"required>
+            <label for="paymentmethod">Metodo de pago</label>
+            <select name="paymentmethod" id="paymentmethod">
+            <option value="creditCard">Trjeta de credito</option>
+            <option value="paypal">paypal</option>
+            </select>
+            <button type="button" onclick="submitOrder()">Confirmar pedido</button>
+        </form>
+        <script>
+            window.onload=function(){
+                const params = new URLSearchParams(window.location.search);
+                document.getElementById('confirmacion').appendChild(document.createElement('hr'));
+                for(const[key,value] of params.entries()){
+                    const infoDiv = document.createElement('div');
+                    infoDiv.textContent = `${key}: ${value}`;
+                    document.getElementById('confirmacion').appendChild(infoDiv);
+    
+                    const hiddenInput = document.createElement('input');
+                    hiddenInput.type = 'hidden';
+                    hiddenInput.name = key;
+                    hiddenInput.value = value;
+                    document.getElementById('confirmacion').appendChild(hiddenInput);
+    
+                }
+            };
+    function submitOrder (){
+        const formElement = documet.getElementById('confirmacion');
+        const formData = new FormData(formElement);
+        const queryParams = new URLSearchParams ();
+    
+        for(let [key,value] of formData.entries()){
+            queryParams.append(key,value);
+        }
+        window.location.href =`submit_order.html?${queryParams}`;
+    }
+        </script>
+    </body>
+    </html>
+
+
